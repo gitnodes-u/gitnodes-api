@@ -5,8 +5,8 @@ import { Octokit } from "@octokit/rest";
 import { createAppAuth } from "@octokit/auth-app";
 import winston from "winston";
 import cors from "cors";
-import { create } from "ipfs";
-import OrbitDB from "orbit-db";
+// import { create } from "ipfs";
+// import OrbitDB from "orbit-db";
 
 dotenv.config();
 
