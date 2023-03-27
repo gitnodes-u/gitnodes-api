@@ -1,11 +1,12 @@
 {
   "name": "gitnodes-api",
   "version": "1.0.0",
+  "type" : "module",
   "description": "Provides a Node.js backend server for the GitNodes ecosystem. This server acts as an intermediary between GitNodes users and their GitHub repositories, enabling users to modify their repositories through the GitNodes Agent GitHub App.",
-  "main": "server.js",
+  "main": "server.mjs",
   "scripts": {
-    "start": "node server.js",
-    "devStart": "nodemon server.js"
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs"
   },
   "author": "",
   "license": "MIT",
@@ -16,6 +17,8 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-validator": "^6.15.0",
+    "ipfs": "^0.66.0",
+    "orbit-db": "^0.29.0",
     "winston": "^3.8.2"
   },
   "devDependencies": {
